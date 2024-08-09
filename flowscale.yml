@@ -1,7 +1,106 @@
-# Flowscale configuration file. Do not edit directly  
 version: 0
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-  
+workflows:
+  - id: qwnj4h5vzd
+    name: clip_config_bigg.json
+    description: ''
+    file: comfy/clip_config_bigg.json
+  - id: h1pceifra0g
+    name: clip_vision_config_g.json
+    description: ''
+    file: comfy/clip_vision_config_g.json
+  - id: belo3ug9oht
+    name: clip_vision_config_h.json
+    description: ''
+    file: comfy/clip_vision_config_h.json
+  - id: nw5nf0r6of
+    name: clip_vision_config_vitl.json
+    description: ''
+    file: comfy/clip_vision_config_vitl.json
+  - id: 9a77utx00bs
+    name: clip_vision_config_vitl_336.json
+    description: ''
+    file: comfy/clip_vision_config_vitl_336.json
+  - id: erqfjx1bk4
+    name: sd1_clip_config.json
+    description: ''
+    file: comfy/sd1_clip_config.json
+  - id: 3fqq48viio4
+    name: special_tokens_map.json
+    description: ''
+    file: comfy/sd1_tokenizer/special_tokens_map.json
+  - id: flh6cntog5w
+    name: tokenizer_config.json
+    description: ''
+    file: comfy/sd1_tokenizer/tokenizer_config.json
+  - id: l46hjw3at8m
+    name: vocab.json
+    description: ''
+    file: comfy/sd1_tokenizer/vocab.json
+  - id: pad6rlzrn4f
+    name: hydit_clip.json
+    description: ''
+    file: comfy/text_encoders/hydit_clip.json
+  - id: udbgbmzclo
+    name: mt5_config_xl.json
+    description: ''
+    file: comfy/text_encoders/mt5_config_xl.json
+  - id: 32wr0bf0sje
+    name: sd2_clip_config.json
+    description: ''
+    file: comfy/text_encoders/sd2_clip_config.json
+  - id: 2msw4znsxo5
+    name: t5_config_base.json
+    description: ''
+    file: comfy/text_encoders/t5_config_base.json
+  - id: tbtsp9rq5j
+    name: t5_config_xxl.json
+    description: ''
+    file: comfy/text_encoders/t5_config_xxl.json
+  - id: tkeq38binq9
+    name: t5_pile_config_xl.json
+    description: ''
+    file: comfy/text_encoders/t5_pile_config_xl.json
+  - id: 7vb3d01jow
+    name: special_tokens_map.json
+    description: ''
+    file: comfy/text_encoders/hydit_clip_tokenizer/special_tokens_map.json
+  - id: 7u9fjz19tws
+    name: tokenizer_config.json
+    description: ''
+    file: comfy/text_encoders/hydit_clip_tokenizer/tokenizer_config.json
+  - id: fi9rbrrozqs
+    name: special_tokens_map.json
+    description: ''
+    file: comfy/text_encoders/t5_tokenizer/special_tokens_map.json
+  - id: 2wggjqno5hf
+    name: tokenizer.json
+    description: ''
+    file: comfy/text_encoders/t5_tokenizer/tokenizer.json
+  - id: 66r7ocstx3b
+    name: tokenizer_config.json
+    description: ''
+    file: comfy/text_encoders/t5_tokenizer/tokenizer_config.json
+  - id: 4idxs9odx8r
+    name: babel.config.json
+    description: ''
+    file: tests-ui/babel.config.json
+  - id: aectgm3485c
+    name: package-lock.json
+    description: ''
+    file: tests-ui/package-lock.json
+  - id: 26r26yx7od1
+    name: package.json
+    description: ''
+    file: tests-ui/package.json
+  - id: 1d4p2sq4o47
+    name: default_graph_sdxl1_0.json
+    description: ''
+    file: tests/inference/graphs/default_graph_sdxl1_0.json
+  - id: ca2vv4nf3cf
+    name: jsconfig.json
+    description: ''
+    file: web/jsconfig.json
